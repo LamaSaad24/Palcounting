@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Palconting</title>
+    <title>Report | Palconting</title>
     <!-- font awesome  -->
     <link rel="stylesheet" href="assets/css/all.min.css" />
     <!-- bootstrp style -->
@@ -21,7 +21,7 @@
             <a href="#" class="btn btn-dark">فيديوهات تعريفية</a>
           </div>
           <div class="col-6 text-end">
-            <a href="#" class="btn btn-dark">تسجيل دخول</a>
+            <a href="#" class="btn btn-dark">اسم صاحب الحساب</a>
           </div>
         </div>
       </div>
@@ -181,42 +181,66 @@
     </section>
     <!-- end home section -->
 
-
     <!-- start login section -->
     <section>
       <div class="container my-5">
-          <div class="row justify-content-center">
-            <div class="col-md-6">
-              <form action="" method=""post class="row g-3 text-rtl">
-                <div class="col-12">
-                  <label for="inputEmail4" class="form-label">اسم المستخدم :</label>
-                  <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-12">
-                  <label for="inputPassword4" class="form-label">كلمة المرور :</label>
-                  <input type="password" class="form-control" id="inputPassword4">
-                </div>
-                <div class="col-12 text-center">
-                  <a href="#" class="btn btn-link">هل نسيت كلمة المرور؟</a>
-                </div>
-                <div class="col-6 text-center">
-                  <button type="submit" class="btn btn-primary">تسجيل دخول</button>
-                </div>
-                <div class="col-6 text-center">
-                  <button type="submit" class="btn btn-secondary">انشاء حساب</button>
-                </div>
-              </form>
-            </div>
+        <nav  aria-label="breadcrumb my-2">
+        <ol class="breadcrumb flex-row-reverse">
+            <li class="breadcrumb-item"><a href="index.html">الصفحة الرئيسية</a></li>
+            <li class="breadcrumb-item active" aria-current="page">التقارير</li>
+        </ol>
+        </nav>
+        <div class="row my-2  justify-content-center text-center py-1">
+          <div class="col-6 ">
+            <p class="alert alert-secondary">
+              <a href="#">زاوية التقارير</a>
+            </p>
           </div>
+        <table class="table table-striped table-bordered text-rtl">
+            <thead>
+            <tr>
+                <th scope="col">الرقم</th>
+                <th scope="col">عنوان التقرير</th>
+                <th scope="col">بيان ماهية التقرير</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td><a href="report1.html" target="_blank"  class="btn btn-link">كشف حساب حميع الموردين</a></td>
+                    <td>كشف يعطي المبلغ التراكمي المطلوب لكل مورد / شركة</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td><a href="report2.html" target="_blank" class="btn btn-link">كشف حساب مورد واحد</a></td>
+                    <td>كشف لمورد واحد بناءً على فترة محددة</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td><a href="report3.html" target="_blank" class="btn btn-link">كشف مشتريات شهري</a></td>
+                    <td>كشف مشتريات المحل خلال شهر محدد</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td><a href="report4.html" target="_blank" class="btn btn-link">كشف دفعات شهري</a></td>
+                    <td>كشف مدفوعات المحل خلال شهر محدد</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>كشف المبيعات الشهري</td>
+                    <td>كشف المبيعات التي تمت خلال الشهر</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
       </div>
     </section>
-    <!-- end login section -->
+    <!-- end  section -->
 
     <!-- start section -->
     <section class="ads bg-secondary">
-      <div
-        class="container d-flex align-items-center justify-content-center h-100"
-      >
+      <div class="container d-flex align-items-center justify-content-center h-100">
         <h2 class="tetx-uppercase text-white">Ads</h2>
       </div>
     </section>

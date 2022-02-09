@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Palconting</title>
+    <title>Supplier-Visit-Details | Palconting</title>
     <!-- font awesome  -->
     <link rel="stylesheet" href="assets/css/all.min.css" />
     <!-- bootstrp style -->
@@ -21,7 +21,7 @@
             <a href="#" class="btn btn-dark">فيديوهات تعريفية</a>
           </div>
           <div class="col-6 text-end">
-            <a href="#" class="btn btn-dark">تسجيل دخول</a>
+            <a href="#" class="btn btn-dark">اسم صاحب الحساب</a>
           </div>
         </div>
       </div>
@@ -181,36 +181,109 @@
     </section>
     <!-- end home section -->
 
-
-    <!-- start login section -->
+    <!-- start  section -->
     <section>
       <div class="container my-5">
-          <div class="row justify-content-center">
-            <div class="col-md-6">
-              <form action="" method=""post class="row g-3 text-rtl">
-                <div class="col-12">
-                  <label for="inputEmail4" class="form-label">اسم المستخدم :</label>
-                  <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-12">
-                  <label for="inputPassword4" class="form-label">كلمة المرور :</label>
-                  <input type="password" class="form-control" id="inputPassword4">
-                </div>
-                <div class="col-12 text-center">
-                  <a href="#" class="btn btn-link">هل نسيت كلمة المرور؟</a>
-                </div>
-                <div class="col-6 text-center">
-                  <button type="submit" class="btn btn-primary">تسجيل دخول</button>
-                </div>
-                <div class="col-6 text-center">
-                  <button type="submit" class="btn btn-secondary">انشاء حساب</button>
-                </div>
-              </form>
-            </div>
+        <nav  aria-label="breadcrumb my-2">
+          <ol class="breadcrumb flex-row-reverse">
+              <li class="breadcrumb-item"><a href="index.html">الصفحة الرئيسية</a></li>
+              <li class="breadcrumb-item"><a href="supplier.html">بيانات الموردين</a></li>
+              <li class="breadcrumb-item"><a href="supplier-details.html">تفاصيل المورد</a></li>
+              <li class="breadcrumb-item active" aria-current="page">تفاصيل الزيارة</li>
+          </ol>
+        </nav>
+        <div class="row my-2 justify-content-center py-1">
+          <div class="col-6 text-center">
+            <p class="alert alert-info">
+             تفاصيل خاصة بزيارة كل مورد
+            </p>
           </div>
+        </div>
       </div>
     </section>
-    <!-- end login section -->
+    <!-- end  section -->
+
+        <!-- start  section -->
+        <section>
+          <div class="container my-5">
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <form action="" method=""post class="row g-3  text-rtl">
+                    <div class="col-md-4">
+                      <label for="inputName" class="form-label">اسم الشركة : *</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" class="form-control" value="شركة 1" id="inputName">
+                    </div>
+                      <div class="col-md-4">
+                      <label for="inputName" class="form-label">تاريخ الزيارة :</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="date"value="2022-02-15" class="form-control" id="inputName">
+                    </div>
+                      <div class="col-md-4">
+                      <label for="inputName" class="form-label">قيمة الفاتورة :</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" value="550" class="form-control" id="inputName">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputName" class="form-label">قيمة المرتجع :</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" value="550" class="form-control" id="inputName">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputName" class="form-label">قيمة الدفعة :</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" value="550" class="form-control" id="inputName">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputName" class="form-label">الرصيد حتى تاريخه :</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" value="550" class="form-control" id="inputName">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputName" class="form-label">مرفقات 1</label>
+                    </div>
+                    <div class="col-md-3 offset-5">
+                      <img src="assets/img/logo.png" class="w-100" alt="">
+                    </div>
+                    <!-- <div class="col-md-4">
+                      <input type="file" class="form-control" id="inputGroupFile01">
+                    </div> -->
+                    <div class="col-md-4">
+                      <label for="inputName" class="form-label">مرفقات 2</label>
+                    </div>
+                    <div class="col-md-3 offset-5">
+                      <img src="assets/img/logo.png" class="w-100" alt="">
+                    </div>
+                    <!-- <div class="col-md-8">
+                      <input type="file" class="form-control" id="inputGroupFile01">
+                    </div> -->
+                    <div class="col-md-4">
+                      <label for="inputName" class="form-label">مرفقات 3</label>
+                    </div>
+                    <div class="col-md-3 offset-5">
+                      <img src="assets/img/logo.png" class="w-100" alt="">
+                    </div>
+                    <!-- <div class="col-md-8">
+                      <input type="file" class="form-control" id="inputGroupFile01">
+                    </div> -->
+                    <div class="col-6  my-2  text-center">
+                      <button type="submit" class="btn btn-success">تعديل بيانات الإدخال</button>
+                    </div>
+                    <div class="col-6  my-2  text-center">
+                      <button type="submit" class="btn btn-danger">حذف بيانات الإدخال</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          </div>
+        </section>
+        <!-- end  section -->
 
     <!-- start section -->
     <section class="ads bg-secondary">
