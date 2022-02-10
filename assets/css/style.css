@@ -3,7 +3,7 @@
     direction: rtl;
 }
 .carousel{
-    height:80vh;
+    height:50vh;
 }
 .carousel-item{
     height: 100%;
@@ -26,4 +26,19 @@
 /* supplier page style */
 .breadcrumb-item+.breadcrumb-item::before{
     float: right;
+}
+
+@media screen and  (max-width:500px) {
+    .carousel{
+        height: 20vh;
+    }
+    .p-1{
+        padding: .1rem!important;
+    }
+    .my-5{
+        margin: 1rem 0 !important;
+    }
+    .navbar-brand{
+        font-size: 17px;
+    }
 }
